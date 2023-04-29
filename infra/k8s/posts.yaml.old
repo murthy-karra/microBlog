@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: posts
+spec:
+  containers:
+    - name: posts
+      image: karrad/gridermicro:posts
+# sudo rm -rf /etc/netplan/00-installer-config.yaml
+# sudo rm -rf /etc/netplan/01-netcfg.yaml
+
+# sudo netplan apply
+
+# sudo apt install net-tools
+
+# sudo ifconfig eth0 down
